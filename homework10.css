@@ -1,0 +1,204 @@
+.first {
+    display: block;
+    background-color: lightcoral;
+    padding: 10px;
+}
+
+.one {
+    height: 100px;
+    width: 100px;
+    background-color: chocolate;
+    margin: 10px;
+}
+
+
+.second {
+    display: inline;
+    background-color: lightblue;
+}
+
+.two {
+    
+            display: inline-block; /* Обеспечить отображение */
+            height: 100px;
+            width: 100px;
+            background-color: chocolate;
+            margin: 10px;
+}
+
+
+
+.third {
+            display: flex;
+            justify-content: space-between;
+            background-color: lightgreen;
+            padding: 10px;
+}
+
+.three {
+            height: 100px;
+            width: 100px;
+            background-color: chocolate;
+            margin: 10px;
+}
+
+
+.box {
+
+display: flex;
+flex-direction: column;
+background-color: lightseagreen;
+flex-wrap: wrap;
+flex-flow: row wrap;
+gap: 10px;
+padding: 10px;
+height: 300px;
+justify-content: space-evenly;
+align-items: center;
+align-content: center;
+
+}
+
+
+.daughter-one {
+
+    height: 100px;
+    width: 100px;
+    background-color: chocolate;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+
+
+.daughter-two {
+
+    height: 100px;
+    width: 100px;
+    background-color: chocolate;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+
+
+.daughter-three {
+
+    height: 100px;
+    width: 100px;
+    background-color: chocolate;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+.box-one {
+    display: flex; /* Включаем flexbox */
+    width: 100%;
+}
+
+
+.a {
+
+    flex: 0 0 50%; /* Первый элемент занимает 50% ширины */
+    background-color: #003366;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+
+
+.b {
+
+    flex: 1; /* Второй элемент растягивается на оставшуюся ширину */
+    background-color: #336699;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+.c{
+
+    flex: 0 0 100px; /* Третий элемент имеет фиксированную ширину 100px */
+    background-color: #6699CC;
+    color: white;
+    padding: 10px;
+    text-align: center;
+
+
+}
+
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: #333;
+    padding: 10px;
+    
+}
+
+.menu a {
+
+color: azure;
+letter-spacing: 1.5px;
+text-decoration: none;
+}
+
+
+.menu a:hover {
+    border-radius: 5px;
+    background-color: gray;
+}
+
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap; /* Разрешает перенос карточек на новую строку */
+    gap: 20px; /* Расстояние между карточками */
+    padding: 20px;
+    max-width: 1200px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .card {
+    flex: 1 1 200px; /* flex-grow: 1, flex-shrink: 1, flex-basis: 200px */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    background: #6200ea;
+    color: white;
+    font-size: 16px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+.card:hover {
+    transform: translateY(-5px);
+}
+
+
+
+
+
+
